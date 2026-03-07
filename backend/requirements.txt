@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+mcp
+playwright
+python-dotenv
+openai
+anthropic
