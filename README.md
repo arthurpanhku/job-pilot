@@ -27,13 +27,17 @@ Designed for the age of AI, JobPilot exposes a full MCP server, allowing you to 
 > **Why JobPilot?**
 > Instead of manually tweaking your CV for every application, let JobPilot's agents analyze the JD, rewrite your resume to highlight relevant skills, and submit the application for you—while you sleep.
 
+<a href="https://glama.ai/mcp/servers/arthurpanhku/job-pilot">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/arthurpanhku/job-pilot/badge" alt="job-pilot MCP server" />
+</a>
+
 ## ✨ Features
 
-### �� MCP-Native Architecture
+### 🤖 MCP-Native Architecture
 - **Agent-First Design**: Built from the ground up as a Model Context Protocol (MCP) server.
 - **Universal Compatibility**: Connects seamlessly with any MCP-compliant client (Claude, IDEs, Agent frameworks).
 
-### �� Intelligent Resume Engine
+### 📄 Intelligent Resume Engine
 - **Context-Aware Optimization**: Analyzes your master profile against target JDs to generate hyper-personalized resumes.
 - **ATS Friendly**: Ensures generated resumes are optimized for Applicant Tracking Systems.
 
@@ -42,7 +46,7 @@ Designed for the age of AI, JobPilot exposes a full MCP server, allowing you to 
 - **Auto-Apply**: Automated form filling with built-in stealth mode and anti-detection mechanisms (human-like delays, randomized user agents).
 - **Risk Reduction**: "Safe Mode" with dry-run capability and manual confirmation steps to avoid account flags.
 
-### �� Application Tracking
+### 📊 Application Tracking
 - **Dashboard**: Modern UI built with Shadcn components to visualize your application status, interview pipeline, and success rates.
 - **History**: Keep a record of every tailored resume version sent to recruiters.
 
