@@ -123,6 +123,10 @@ Designed for the age of AI, JobPilot exposes a full MCP server, allowing you to 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=arthurpanhku/job-pilot&type=Date)](https://star-history.com/#arthurpanhku/job-pilot&Date)
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
