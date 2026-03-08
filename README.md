@@ -31,6 +31,11 @@ Designed for the age of AI, JobPilot exposes a full MCP server, allowing you to 
   <img width="380" height="200" src="https://glama.ai/mcp/servers/arthurpanhku/job-pilot/badge" alt="job-pilot MCP server" />
 </a>
 
+![JobPilot Dashboard](assets/dashboard-preview.jpg)
+
+<video src="assets/grok-video-demo.mp4" controls="controls" style="max-width: 100%;">
+</video>
+
 ## ✨ Features
 
 ### 🤖 MCP-Native Architecture
