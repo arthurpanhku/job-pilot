@@ -1,6 +1,8 @@
-# JobPilot ✈️
-
 <div align="center">
+
+<img src="assets/logo.jpg" width="200" alt="JobPilot Logo" style="border-radius: 20px;" />
+
+# JobPilot ✈️
 
 ![JobPilot Banner](https://img.shields.io/badge/JobPilot-AI_Career_Co--Pilot-blue?style=for-the-badge&logo=openai)
 

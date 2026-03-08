@@ -1,5 +1,6 @@
 import { Home, Briefcase, MessageSquare, User, Settings, PieChart, Clock, Lightbulb } from "lucide-react"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 interface SidebarProps {
     className?: string
@@ -19,21 +20,14 @@ export function Sidebar({ className }: SidebarProps) {
     return (
         <div className={cn("w-64 bg-slate-950 text-slate-400 flex flex-col h-screen border-r border-slate-800", className)}>
             <div className="p-6">
-                <div className="flex items-center gap-2 text-white text-xl font-bold">
-                    <div className="h-8 w-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            className="h-5 w-5 text-white"
-                        >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                            <polyline points="22 4 12 14.01 9 11.01" />
-                        </svg>
+                <div className="flex items-center gap-3 text-white text-xl font-bold">
+                    <div className="relative h-10 w-10 overflow-hidden rounded-lg">
+                        <Image
+                            src="/logo.jpg"
+                            alt="JobPilot Logo"
+                            fill
+                            className="object-cover"
+                        />
                     </div>
                     JobPilot
                 </div>
