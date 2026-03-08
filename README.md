@@ -38,11 +38,12 @@ Designed for the age of AI, JobPilot exposes a full MCP server, allowing you to 
 - **ATS Friendly**: Ensures generated resumes are optimized for Applicant Tracking Systems.
 
 ### 🕵️ Automated Job Hunter
-- **Smart Search**: Scrapes and filters job listings from LinkedIn (and more coming soon) based on your semantic profile.
-- **Auto-Apply**: (Experimental) Automated form filling and submission using Playwright/OpenClaw integration.
+- **Smart Search**: Scrapes and filters job listings from LinkedIn and Indeed based on your semantic profile.
+- **Auto-Apply**: Automated form filling with built-in stealth mode and anti-detection mechanisms (human-like delays, randomized user agents).
+- **Risk Reduction**: "Safe Mode" with dry-run capability and manual confirmation steps to avoid account flags.
 
 ### �� Application Tracking
-- **Dashboard**: Visualize your application status, interview pipeline, and success rates.
+- **Dashboard**: Modern UI built with Shadcn components to visualize your application status, interview pipeline, and success rates.
 - **History**: Keep a record of every tailored resume version sent to recruiters.
 
 ## 🛠️ Tech Stack

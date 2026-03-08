@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.mcp_server import mcp_router
+from app.automation.router import router as automation_router
 
 app = FastAPI(title="JobPilot API")
 
@@ -8,6 +9,7 @@ async def health_check():
     return {"status": "ok", "service": "JobPilot Backend"}
 
 app.include_router(mcp_router, prefix="/mcp", tags=["mcp"])
+app.include_router(automation_router, prefix="/api/automation", tags=["automation"])
 
 if __name__ == "__main__":
     import uvicorn

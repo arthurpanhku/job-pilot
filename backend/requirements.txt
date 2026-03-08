@@ -6,3 +6,8 @@ playwright
 python-dotenv
 openai
 anthropic
+playwright-stealth
+fake-useragent
+pytest
+pytest-asyncio
+httpx
